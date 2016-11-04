@@ -8,15 +8,17 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>2r83q4iar78tr</unique-id>
-    <saved-with-version>23300</saved-with-version>
-    <used-plugins />
+    <saved-with-version>23900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
+        <width>3056</width>
         <height>480</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
@@ -37,7 +39,12 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="TiledBackground" sid="465354949983029">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\2dam\Downloads\mario-1-2.gif" />
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
